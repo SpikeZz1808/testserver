@@ -1,1 +1,84 @@
-Hallo
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Course Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding: 15px 0;
+            text-align: center;
+        }
+        nav {
+            background: #444;
+            display: flex;
+            justify-content: center;
+        }
+        nav a {
+            color: #fff;
+            padding: 14px 20px;
+            text-decoration: none;
+        }
+        nav a:hover {
+            background: #555;
+        }
+        .container {
+            max-width: 1000px;
+            margin: 20px auto;
+            padding: 20px;
+            background: #fff;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        h1, h2 {
+            color: #333;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background: #333;
+            color: #fff;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to the Course</h1>
+    </header>
+    <nav>
+        <a href="#overview">Overview</a>
+        <a href="#modules">Modules</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <div class="container">
+        <section id="overview">
+            <h2>Course Overview</h2>
+            <p>This course will teach you the fundamentals of web development, including HTML, CSS, and JavaScript.</p>
+        </section>
+        <section id="modules">
+            <h2>Modules</h2>
+            <ul>
+                <li>Introduction to HTML</li>
+                <li>Styling with CSS</li>
+                <li>JavaScript Basics</li>
+                <li>Building a Complete Website</li>
+            </ul>
+        </section>
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>Email: instructor@example.com</p>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2025 Course Website. All rights reserved.</p>
+    </footer>
+</body>
+</html>
